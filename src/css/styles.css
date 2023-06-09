@@ -1,0 +1,87 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    height: 98vh;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.card {
+    display: flex;
+    background-color: var(--card-color);
+    border-radius: 1rem;
+    width: 60rem;
+    height: 45rem;
+}
+
+.image-preview {
+    width: 50%;    
+}
+
+.image-preview img {
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.info-preview {
+    width: 50%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+    padding: 3.1rem; 
+}
+
+.info-preview h1{
+    font-weight: normal;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+}
+
+.info-preview h2{
+    font-family: 'Fraunces', serif;
+    font-size: 3.2rem;
+}
+
+#offer-price {
+    font-family: 'Fraunces', serif;
+    font-size: 3.1rem;
+    color: var(--price-button-color);
+}
+
+#old-price {
+    font-size: 1.3rem;
+    text-decoration: line-through;
+}
+
+.info-preview button{
+    background-color: var(--price-button-color);    
+    color: var(--card-color);
+    border: 0px;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.info-preview button:hover{
+    background-color: hsla(158, 36%, 17%, 1);
+    transition: background-color 0.3s;
+}
