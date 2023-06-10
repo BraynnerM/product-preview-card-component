@@ -1,0 +1,23 @@
+@media (max-width: 620px) {
+    .image-preview img {
+        content: url('../assets/image-product-mobile.jpg');
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 34.2rem;
+        height: 61rem; 
+    }
+
+    .image-preview {
+        width: 100%;
+    }
+
+    .info-preview {
+        width: 100%;
+        height: 100vh;
+        padding: 0.9rem 2.35rem 0 2.35rem; 
+        
+    }
+}

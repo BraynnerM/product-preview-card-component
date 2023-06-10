@@ -12,6 +12,8 @@ body {
 
 p {
     font-size: 1.4rem;
+    line-height: 2.3rem;
+    color: var(--p-h1-color);
 }
 
 .container {
@@ -29,7 +31,7 @@ p {
     background-color: var(--card-color);
     border-radius: 1rem;
     width: 60rem;
-    height: 45rem;
+    height: 45rem;    
 }
 
 .image-preview {
@@ -46,29 +48,41 @@ p {
     display: flex; 
     flex-direction: column; 
     justify-content: space-evenly;
-    padding: 3.1rem; 
+    padding: 0.9rem 3.1rem 0 3.1rem; 
 }
 
 .info-preview h1{
     font-weight: normal;
     font-size: 1.2rem;
     letter-spacing: 0.5rem;
+    line-height: 1rem;
+    color: var(--p-h1-color);
 }
 
 .info-preview h2{
     font-family: 'Fraunces', serif;
     font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: var(--h2-color);
+}
+
+.prices {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #offer-price {
     font-family: 'Fraunces', serif;
-    font-size: 3.1rem;
+    font-size: 3.2rem;
     color: var(--price-button-color);
 }
 
 #old-price {
     font-size: 1.3rem;
     text-decoration: line-through;
+    padding-left: 2rem;
+    color: var(--p-h1-color);
 }
 
 .info-preview button{
@@ -79,9 +93,17 @@ p {
     font-size: 1.4rem;
     height: 5rem;
     cursor: pointer;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .info-preview button:hover{
     background-color: hsla(158, 36%, 17%, 1);
     transition: background-color 0.3s;
+}
+
+.info-preview button img{
+    margin-right: 1rem;    
 }
